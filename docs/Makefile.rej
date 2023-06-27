@@ -1,0 +1,7 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 3
+- 	 $(PYTHON) -c "import webbrowser; from pathlib import Path; webbrowser.open('file://' + Path('build/html/index.html').resolve())"
+--- 3 -----
++ 	 $(PYTHON) -c "import webbrowser; from pathlib import Path; webbrowser.open('file://' + str(Path('build/html/index.html').resolve()))"
